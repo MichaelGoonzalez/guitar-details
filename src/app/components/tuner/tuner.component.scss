@@ -1,0 +1,28 @@
+// tuner.component.scss
+.tuner-card {
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+
+  .frequency-display, .note-display, .tuning-status {
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .tuned {
+    color: green;
+  }
+
+  .not-tuned {
+    color: red;
+  }
+}
